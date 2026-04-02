@@ -30,7 +30,7 @@ int Add(int i, int j) {
 	//int Add(int i , int j) -> int 반환
 }
 void Result_Print(int val) {
-	printf("덧셈에 대한 결과 : %d \n , val");
+	printf("덧셈에 대한 결과 : %d \n ", val);
 	printf("****** END ******");
 	//반환되는 값이 없어 void
 }
