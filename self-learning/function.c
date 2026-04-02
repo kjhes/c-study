@@ -3,7 +3,14 @@
 
 int digit(int n) {  // 정수 n을 매개변수로 지정
 	if (n > 10) return n; //n이 10보다 작을땐 n 리턴
-	return (n % 10) + digit(n / 10);
+	return (n % 10) + digit(n / 10); //순환 함수 (재귀 함수)
+	// digit(235) = 10
+	// (235 % 10) + digit(235 / 10)
+	// 5 + digit(23) = 5 + 5 = 10
+	// (23 % 10) + digit(23 / 10)
+	// 3 + digit(2) = 3 + 2 =5
+	// 2는 10보다 작으므로 2 
+
 
 }
 int main() {
