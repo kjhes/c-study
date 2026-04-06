@@ -19,7 +19,7 @@
 //}
 void change(int** pp) {
 	int b = 20;
-	*pp = &b;
+	*pp = &b; //두개를 쓰지않고 하나만 쓰면 값을 의미한다
 
 }
 int main() {
